@@ -15,5 +15,12 @@ int main (int argc, char *argv[]) {
 	list.display();
 	std::println();
 
+	list.prepend(-1);
+	list.prepend(-2);
+	list.prepend(-3);
+
+	list.display();
+	std::println();
+
 	return 0;
 }
