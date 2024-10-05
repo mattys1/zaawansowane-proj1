@@ -164,4 +164,9 @@ public:
 
 		delete toPop;
 	}
+
+	T& operator[](size_t index) {
+		return get_node_at(index)->contents;
+	}
+
 };
