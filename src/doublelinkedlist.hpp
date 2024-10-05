@@ -127,6 +127,7 @@ public:
 		delete head;
 
 		head = newHead;
+		head->previous = nullptr;
 	}
 
 	/// Remove an element at a given index
