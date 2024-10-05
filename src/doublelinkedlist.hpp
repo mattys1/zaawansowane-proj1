@@ -25,6 +25,22 @@ private:
 	};
 
 	Node* head;
+
+	template<typename F>
+	Node* traverse_forward_if(F predicate) {
+		if(head == nullptr) {
+			return nullptr;	
+		}
+
+		Node* currentElement { head };
+
+		while(predicate(currentElement->next)) {
+			currentElement = currentElement->next;		
+		}
+
+		return currentElement;
+	}
+
 public:
 	DoubleLinkedList(void): head {nullptr} {}
 	~DoubleLinkedList(void) {
