@@ -1,6 +1,9 @@
 #include <print>
 
+#include "doublelinkedlist.hpp"
+
 int main (int argc, char *argv[]) {
-	std::println("Hello World");	
+	DoubleLinkedList<int> list;
+
 	return 0;
 }
