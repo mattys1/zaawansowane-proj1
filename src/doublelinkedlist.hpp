@@ -102,7 +102,6 @@ public:
 	/// Insert an item at a certain index
 	void insert(const T& item, size_t index) {
 		Node* atInsertion { get_node_at(index) };
-		Node* afterInsertion { atInsertion->next };
 		Node* beforeInsertion { atInsertion->previous };
 
 		if(beforeInsertion == nullptr) {
