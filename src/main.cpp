@@ -8,5 +8,12 @@ int main (int argc, char *argv[]) {
 	list.display();
 	std::println();
 
+	list.append(1);
+	list.append(2);
+	list.append(3);
+
+	list.display();
+	std::println();
+
 	return 0;
 }
