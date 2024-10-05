@@ -25,6 +25,7 @@ private:
 	};
 
 	Node* head;
+	Node* back;
 
 	template<typename F>
 	Node* traverse_forward_if(F predicate) {
@@ -43,7 +44,7 @@ private:
 
 public:
 	/// Default Constructor
-	DoubleLinkedList(void): head {nullptr} {}
+	DoubleLinkedList(void): head { nullptr }, back { nullptr } {}
 	~DoubleLinkedList(void) {
 		delete head;
 	}
@@ -69,19 +70,22 @@ public:
 	void append(const T& item) {
 		if(head == nullptr) {
 			head = new Node { nullptr, nullptr, item };	
+			back = head;
 			return;
 		}
 
-		Node* lastElem = traverse_forward_if([](const Node* elem) { return elem != nullptr; });
-		lastElem->next = new Node { lastElem, nullptr, item };
+		back = new Node { back, nullptr, item };
+		back->previous->next = back;
 	}
 
 	void prepend(const T& item) {
 		if(head == nullptr) {
 			head = new Node { nullptr, nullptr, item };	
+			back = head;
 			return;
 		}
 
 		head = new Node { nullptr, head, item };
+		head->next->previous = head;
 	}
 };
