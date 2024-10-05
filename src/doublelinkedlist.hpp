@@ -21,7 +21,6 @@ private:
 
 		~Node(void) {
 			delete next;
-			delete previous;
 		}
 	};
 
