@@ -42,11 +42,13 @@ private:
 	}
 
 public:
+	/// Default Constructor
 	DoubleLinkedList(void): head {nullptr} {}
 	~DoubleLinkedList(void) {
 		delete head;
 	}
 
+	/// Print the entire list
 	void display(void) {
 		Node* currentElement { head };
 		std::print("{{");
@@ -62,6 +64,8 @@ public:
 			currentElement = currentElement->next;
 		}
 	}
+
+	/// Append an item to the end of the list
 	void append(const T& item) {
 		if(head == nullptr) {
 			head = new Node { nullptr, nullptr, item };	
