@@ -41,6 +41,7 @@ int main (int argc, char *argv[]) {
 	list.rdisplay();
 	std::println();
 
+	std::println("element at index 3: {}", list[3]);
 
 	list.clear();
 	list.display();
