@@ -75,4 +75,13 @@ public:
 		Node* lastElem = traverse_forward_if([](const Node* elem) { return elem != nullptr; });
 		lastElem->next = new Node { lastElem, nullptr, item };
 	}
+
+	void prepend(const T& item) {
+		if(head == nullptr) {
+			head = new Node { nullptr, nullptr, item };	
+			return;
+		}
+
+		head = new Node { nullptr, head, item };
+	}
 };
