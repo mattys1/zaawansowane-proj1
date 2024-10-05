@@ -41,5 +41,14 @@ int main (int argc, char *argv[]) {
 	list.rdisplay();
 	std::println();
 
+
+	list.clear();
+	list.display();
+	std::println();
+
+	list.append(22);
+	list.display();
+	std::println();
+
 	return 0;
 }
