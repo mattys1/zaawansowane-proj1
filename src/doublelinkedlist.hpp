@@ -42,6 +42,15 @@ private:
 		return currentElement;
 	}
 
+	Node* get_node_at(size_t index) {
+		Node* currentNode { head };
+		for(size_t i {}; i < index; i++) {
+			currentNode = currentNode->next;
+		}
+
+		return currentNode;
+	}
+
 public:
 	/// Default Constructor
 	DoubleLinkedList(void): head { nullptr }, back { nullptr } {}
@@ -88,5 +97,18 @@ public:
 
 		head = new Node { nullptr, head, item };
 		head->next->previous = head;
+	}
+
+	void insert(const T& item, size_t index) {
+		Node* atInsertion { get_node_at(index) };
+		Node* afterInsertion { atInsertion->next };
+		Node* beforeInsertion { atInsertion->previous };
+
+		if(beforeInsertion == nullptr) {
+			prepend(item);
+			return;
+		} 
+
+		beforeInsertion->next = atInsertion->previous = new Node(beforeInsertion, atInsertion, item);
 	}
 };
