@@ -75,6 +75,23 @@ public:
 		}
 	}
 
+	/// Print the entire list in reverse order
+	void rdisplay(void) {
+		Node* currentElement { back };
+		std::print("{{");
+
+		while(true) {
+			if(currentElement == nullptr) {
+				std::print("}}");
+				return;
+			}
+
+			std::print("{}, ", currentElement->contents);
+
+			currentElement = currentElement->previous;
+		}
+	}
+
 	/// Append an item to the end of the list
 	void append(const T& item) {
 		if(head == nullptr) {

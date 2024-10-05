@@ -38,5 +38,8 @@ int main (int argc, char *argv[]) {
 	list.display();
 	std::println();
 
+	list.rdisplay();
+	std::println();
+
 	return 0;
 }
