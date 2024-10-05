@@ -22,5 +22,13 @@ int main (int argc, char *argv[]) {
 	list.display();
 	std::println();
 
+	list.insert(111, 0);
+	list.insert(222, 3);
+	list.insert(333, 4);
+	list.insert(999, 8);
+
+	list.display();
+	std::println();
+
 	return 0;
 }
