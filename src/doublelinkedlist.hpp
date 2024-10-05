@@ -111,4 +111,38 @@ public:
 
 		beforeInsertion->next = atInsertion->previous = new Node(beforeInsertion, atInsertion, item);
 	}
+
+
+	void pop(void) {
+		Node* newBack { back->previous };
+		delete back;
+
+		back = newBack;
+	}
+
+
+	void rpop(void) {
+		Node* newHead { head->next };
+		head->next = nullptr;
+		delete head;
+
+		head = newHead;
+	}
+
+	void pop_at(size_t index) {
+		Node* toPop { get_node_at(index) };
+		if(toPop == head) {
+			rpop();
+			return;
+		} else if(toPop == back) {
+			pop();
+			return;
+		}
+
+		toPop->previous->next = toPop->next;
+		toPop->next->previous = toPop->previous;
+		toPop->next = nullptr;
+
+		delete toPop;
+	}
 };
