@@ -78,6 +78,7 @@ public:
 		back->previous->next = back;
 	}
 
+	/// Prepend an item to the beggining of the list
 	void prepend(const T& item) {
 		if(head == nullptr) {
 			head = new Node { nullptr, nullptr, item };	
