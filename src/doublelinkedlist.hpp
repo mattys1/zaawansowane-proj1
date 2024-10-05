@@ -112,7 +112,7 @@ public:
 		beforeInsertion->next = atInsertion->previous = new Node(beforeInsertion, atInsertion, item);
 	}
 
-
+	/// Remove an element from the back of the list
 	void pop(void) {
 		Node* newBack { back->previous };
 		delete back;
@@ -120,7 +120,7 @@ public:
 		back = newBack;
 	}
 
-
+	/// Remove an element from the head of the list
 	void rpop(void) {
 		Node* newHead { head->next };
 		head->next = nullptr;
@@ -129,6 +129,7 @@ public:
 		head = newHead;
 	}
 
+	/// Remove an element at a given index
 	void pop_at(size_t index) {
 		Node* toPop { get_node_at(index) };
 		if(toPop == head) {
