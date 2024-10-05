@@ -169,4 +169,8 @@ public:
 		return get_node_at(index)->contents;
 	}
 
+	void clear() {
+		delete head;
+		head = nullptr;
+	}
 };
