@@ -62,4 +62,13 @@ public:
 			currentElement = currentElement->next;
 		}
 	}
+	void append(const T& item) {
+		if(head == nullptr) {
+			head = new Node { nullptr, nullptr, item };	
+			return;
+		}
+
+		Node* lastElem = traverse_forward_if([](const Node* elem) { return elem != nullptr; });
+		lastElem->next = new Node { lastElem, nullptr, item };
+	}
 };
