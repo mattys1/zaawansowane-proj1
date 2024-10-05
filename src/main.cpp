@@ -30,5 +30,13 @@ int main (int argc, char *argv[]) {
 	list.display();
 	std::println();
 
+	list.pop_at(0);
+	list.pop_at(3);
+	list.pop_at(2);
+	list.pop_at(5);
+
+	list.display();
+	std::println();
+
 	return 0;
 }
