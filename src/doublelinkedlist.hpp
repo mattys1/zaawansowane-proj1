@@ -25,7 +25,7 @@ private:
 	};
 
 	Node* head;
-	Node* back;
+	Node* tail;
 
 	template<typename F>
 	Node* traverse_forward_if(F predicate) {
@@ -53,7 +53,7 @@ private:
 
 public:
 	/// Default Constructor
-	DoubleLinkedList(void): head { nullptr }, back { nullptr } {}
+	DoubleLinkedList(void): head { nullptr }, tail { nullptr } {}
 	~DoubleLinkedList(void) {
 		delete head;
 	}
@@ -77,7 +77,7 @@ public:
 
 	/// Print the entire list in reverse order
 	void rdisplay(void) {
-		Node* currentElement { back };
+		Node* currentElement { tail };
 		std::print("{{");
 
 		while(true) {
@@ -96,19 +96,19 @@ public:
 	void append(const T& item) {
 		if(head == nullptr) {
 			head = new Node { nullptr, nullptr, item };	
-			back = head;
+			tail = head;
 			return;
 		}
 
-		back = new Node { back, nullptr, item };
-		back->previous->next = back;
+		tail = new Node { tail, nullptr, item };
+		tail->previous->next = tail;
 	}
 
 	/// Prepend an item to the beggining of the list
 	void prepend(const T& item) {
 		if(head == nullptr) {
 			head = new Node { nullptr, nullptr, item };	
-			back = head;
+			tail = head;
 			return;
 		}
 
@@ -129,12 +129,12 @@ public:
 		beforeInsertion->next = atInsertion->previous = new Node(beforeInsertion, atInsertion, item);
 	}
 
-	/// Remove an element from the back of the list
+	/// Remove an element from the tail of the list
 	void pop(void) {
-		Node* newBack { back->previous };
-		delete back;
+		Node* newTail { tail->previous };
+		delete tail;
 
-		back = newBack;
+		tail = newTail;
 	}
 
 	/// Remove an element from the head of the list
@@ -153,7 +153,7 @@ public:
 		if(toPop == head) {
 			rpop();
 			return;
-		} else if(toPop == back) {
+		} else if(toPop == tail) {
 			pop();
 			return;
 		}
