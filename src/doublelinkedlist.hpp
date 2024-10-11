@@ -27,21 +27,6 @@ private:
 	Node* head;
 	Node* tail;
 
-	template<typename F>
-	Node* traverse_forward_if(F predicate) {
-		if(head == nullptr) {
-			return nullptr;	
-		}
-
-		Node* currentElement { head };
-
-		while(predicate(currentElement->next)) {
-			currentElement = currentElement->next;		
-		}
-
-		return currentElement;
-	}
-
 	Node* get_node_at(size_t index) {
 		Node* currentNode { head };
 		for(size_t i {}; i < index; i++) {
