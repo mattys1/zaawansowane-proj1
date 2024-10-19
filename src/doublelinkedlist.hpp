@@ -150,11 +150,12 @@ public:
 		delete toPop;
 	}
 
-	// Returns the address of the contents of 
+	/// Returns the address of the contents at a specific index
 	T& operator[](size_t index) {
 		return get_node_at(index)->contents;
 	}
 
+	/// Clear the memory allocated by the list.
 	void clear() {
 		delete head;
 		head = nullptr;
