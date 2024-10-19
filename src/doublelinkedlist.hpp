@@ -4,7 +4,7 @@
 
 /// Implementation of a double linked list using the heap
 ///
-/// Bottom Text
+/// As this is a template, the class can't be split into a header and implementation file.
 
 template<typename T>
 class DoubleLinkedList {
@@ -150,6 +150,7 @@ public:
 		delete toPop;
 	}
 
+	// Returns the address of the contents of 
 	T& operator[](size_t index) {
 		return get_node_at(index)->contents;
 	}
