@@ -159,5 +159,6 @@ public:
 	void clear() {
 		delete head;
 		head = nullptr;
+		tail = nullptr;
 	}
 };
