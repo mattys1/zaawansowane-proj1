@@ -1,0 +1,30 @@
+\indexentry{DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}|hyperpage}{5}
+\indexentry{DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}!DoubleLinkedList@{DoubleLinkedList}|hyperpage}{6}
+\indexentry{DoubleLinkedList@{DoubleLinkedList}!DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}|hyperpage}{6}
+\indexentry{DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}!````~DoubleLinkedList@{\texorpdfstring{$\sim$}{\string~}DoubleLinkedList}|hyperpage}{6}
+\indexentry{````~DoubleLinkedList@{\texorpdfstring{$\sim$}{\string~}DoubleLinkedList}!DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}|hyperpage}{6}
+\indexentry{DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}!append@{append}|hyperpage}{6}
+\indexentry{append@{append}!DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}|hyperpage}{6}
+\indexentry{DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}!clear@{clear}|hyperpage}{6}
+\indexentry{clear@{clear}!DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}|hyperpage}{6}
+\indexentry{DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}!display@{display}|hyperpage}{6}
+\indexentry{display@{display}!DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}|hyperpage}{6}
+\indexentry{DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}!insert@{insert}|hyperpage}{6}
+\indexentry{insert@{insert}!DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}|hyperpage}{6}
+\indexentry{DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}!operator\mbox{[}\mbox{]}@{operator[]}|hyperpage}{7}
+\indexentry{operator\mbox{[}\mbox{]}@{operator[]}!DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}|hyperpage}{7}
+\indexentry{DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}!pop@{pop}|hyperpage}{7}
+\indexentry{pop@{pop}!DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}|hyperpage}{7}
+\indexentry{DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}!pop\_at@{pop\_at}|hyperpage}{7}
+\indexentry{pop\_at@{pop\_at}!DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}|hyperpage}{7}
+\indexentry{DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}!prepend@{prepend}|hyperpage}{7}
+\indexentry{prepend@{prepend}!DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}|hyperpage}{7}
+\indexentry{DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}!rdisplay@{rdisplay}|hyperpage}{7}
+\indexentry{rdisplay@{rdisplay}!DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}|hyperpage}{7}
+\indexentry{DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}!rpop@{rpop}|hyperpage}{7}
+\indexentry{rpop@{rpop}!DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}|hyperpage}{7}
+\indexentry{src/doublelinkedlist.hpp@{src/doublelinkedlist.hpp}|hyperpage}{9}
+\indexentry{src/doublelinkedlist.hpp@{src/doublelinkedlist.hpp}|hyperpage}{9}
+\indexentry{src/main.cpp@{src/main.cpp}|hyperpage}{11}
+\indexentry{main.cpp@{main.cpp}!main@{main}|hyperpage}{11}
+\indexentry{main@{main}!main.cpp@{main.cpp}|hyperpage}{11}

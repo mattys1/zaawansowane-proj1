@@ -1,0 +1,75 @@
+\begin{theindex}
+
+  \item {\texorpdfstring{$\sim$}{\string~}DoubleLinkedList}
+    \subitem {DoubleLinkedList$<$ T $>$}, \hyperpage{6}
+
+  \indexspace
+
+  \item {append}
+    \subitem {DoubleLinkedList$<$ T $>$}, \hyperpage{6}
+
+  \indexspace
+
+  \item {clear}
+    \subitem {DoubleLinkedList$<$ T $>$}, \hyperpage{6}
+
+  \indexspace
+
+  \item {display}
+    \subitem {DoubleLinkedList$<$ T $>$}, \hyperpage{6}
+  \item {DoubleLinkedList}
+    \subitem {DoubleLinkedList$<$ T $>$}, \hyperpage{6}
+  \item {DoubleLinkedList$<$ T $>$}, \hyperpage{5}
+    \subitem {\texorpdfstring{$\sim$}{\string~}DoubleLinkedList}, 
+		\hyperpage{6}
+    \subitem {append}, \hyperpage{6}
+    \subitem {clear}, \hyperpage{6}
+    \subitem {display}, \hyperpage{6}
+    \subitem {DoubleLinkedList}, \hyperpage{6}
+    \subitem {insert}, \hyperpage{6}
+    \subitem {operator[]}, \hyperpage{7}
+    \subitem {pop}, \hyperpage{7}
+    \subitem {pop\_at}, \hyperpage{7}
+    \subitem {prepend}, \hyperpage{7}
+    \subitem {rdisplay}, \hyperpage{7}
+    \subitem {rpop}, \hyperpage{7}
+
+  \indexspace
+
+  \item {insert}
+    \subitem {DoubleLinkedList$<$ T $>$}, \hyperpage{6}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.cpp}, \hyperpage{11}
+  \item {main.cpp}
+    \subitem {main}, \hyperpage{11}
+
+  \indexspace
+
+  \item {operator[]}
+    \subitem {DoubleLinkedList$<$ T $>$}, \hyperpage{7}
+
+  \indexspace
+
+  \item {pop}
+    \subitem {DoubleLinkedList$<$ T $>$}, \hyperpage{7}
+  \item {pop\_at}
+    \subitem {DoubleLinkedList$<$ T $>$}, \hyperpage{7}
+  \item {prepend}
+    \subitem {DoubleLinkedList$<$ T $>$}, \hyperpage{7}
+
+  \indexspace
+
+  \item {rdisplay}
+    \subitem {DoubleLinkedList$<$ T $>$}, \hyperpage{7}
+  \item {rpop}
+    \subitem {DoubleLinkedList$<$ T $>$}, \hyperpage{7}
+
+  \indexspace
+
+  \item {src/doublelinkedlist.hpp}, \hyperpage{9}
+  \item {src/main.cpp}, \hyperpage{11}
+
+\end{theindex}
