@@ -38,6 +38,13 @@ int main (int argc, char *argv[]) {
 	list.display();
 	std::println();
 
+	std::print("The previous element in relation to index 2: ");
+	list.display_at(2, -1);
+	std::println();
+	std::print("The next element in relation to index 2: ");
+	list.display_at(2, 1);
+	std::println();
+
 	list.rdisplay();
 	std::println();
 

@@ -155,6 +155,11 @@ public:
 		return get_node_at(index)->contents;
 	}
 
+	/// Display an element at `index`, index can be offset by `offset`
+	void display_at(size_t index, size_t offset = 0) {
+		std::print("{}", get_node_at(index + offset)->contents);
+	}
+
 	/// Clear the memory allocated by the list.
 	void clear() {
 		delete head;
