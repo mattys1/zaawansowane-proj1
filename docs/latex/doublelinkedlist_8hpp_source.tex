@@ -1,5 +1,5 @@
 \doxysection{doublelinkedlist.\+hpp}
-\hypertarget{doublelinkedlist_8hpp_source}{}\label{doublelinkedlist_8hpp_source}\index{/home/mattys/skrypty-\/i-\/syfy/studia/rok2/programowanie-\/zaawansowane/p1/src/doublelinkedlist.hpp@{/home/mattys/skrypty-\/i-\/syfy/studia/rok2/programowanie-\/zaawansowane/p1/src/doublelinkedlist.hpp}}
+\hypertarget{doublelinkedlist_8hpp_source}{}\label{doublelinkedlist_8hpp_source}\index{src/doublelinkedlist.hpp@{src/doublelinkedlist.hpp}}
 \mbox{\hyperlink{doublelinkedlist_8hpp}{Go to the documentation of this file.}}
 \begin{DoxyCode}{0}
 \DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
@@ -146,11 +146,15 @@
 \DoxyCodeLine{00155\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ get\_node\_at(index)-\/>contents;}
 \DoxyCodeLine{00156\ \ \ \ \ \}}
 \DoxyCodeLine{00157\ }
-\DoxyCodeLine{00159\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classDoubleLinkedList_adb259991b6afd0f85191f38ac9595d14}{clear}}()\ \{}
-\DoxyCodeLine{00160\ \ \ \ \ \ \ \ \ \textcolor{keyword}{delete}\ head;}
-\DoxyCodeLine{00161\ \ \ \ \ \ \ \ \ head\ =\ \textcolor{keyword}{nullptr};}
-\DoxyCodeLine{00162\ \ \ \ \ \ \ \ \ tail\ =\ \textcolor{keyword}{nullptr};}
-\DoxyCodeLine{00163\ \ \ \ \ \}}
-\DoxyCodeLine{00164\ \};}
+\DoxyCodeLine{00159\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classDoubleLinkedList_a0d6dfeabf2e40475a0cc4ac6af476242}{display\_at}}(\textcolor{keywordtype}{size\_t}\ index,\ \textcolor{keywordtype}{size\_t}\ offset\ =\ 0)\ \{}
+\DoxyCodeLine{00160\ \ \ \ \ \ \ \ \ std::print(\textcolor{stringliteral}{"{}\{\}"{}},\ get\_node\_at(index\ +\ offset)-\/>contents);}
+\DoxyCodeLine{00161\ \ \ \ \ \}}
+\DoxyCodeLine{00162\ }
+\DoxyCodeLine{00164\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classDoubleLinkedList_adb259991b6afd0f85191f38ac9595d14}{clear}}()\ \{}
+\DoxyCodeLine{00165\ \ \ \ \ \ \ \ \ \textcolor{keyword}{delete}\ head;}
+\DoxyCodeLine{00166\ \ \ \ \ \ \ \ \ head\ =\ \textcolor{keyword}{nullptr};}
+\DoxyCodeLine{00167\ \ \ \ \ \ \ \ \ tail\ =\ \textcolor{keyword}{nullptr};}
+\DoxyCodeLine{00168\ \ \ \ \ \}}
+\DoxyCodeLine{00169\ \};}
 
 \end{DoxyCode}

@@ -34,6 +34,8 @@ void \mbox{\hyperlink{classDoubleLinkedList_ad6ea0ce7f95f24677b38b34ba0aec648}{p
 \begin{DoxyCompactList}\small\item\em Remove an element at a given index. \end{DoxyCompactList}\item 
 T \& \mbox{\hyperlink{classDoubleLinkedList_a718b3cb0f59f82e30faf738818848c6b}{operator\mbox{[}$\,$\mbox{]}}} (size\+\_\+t index)
 \begin{DoxyCompactList}\small\item\em Returns the address of the contents at a specific index. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDoubleLinkedList_a0d6dfeabf2e40475a0cc4ac6af476242}{display\+\_\+at}} (size\+\_\+t index, size\+\_\+t offset=0)
+\begin{DoxyCompactList}\small\item\em Display an element at {\ttfamily index}, index can be offset by {\ttfamily offset} \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{classDoubleLinkedList_adb259991b6afd0f85191f38ac9595d14}{clear}} ()
 \begin{DoxyCompactList}\small\item\em Clear the memory allocated by the list. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
@@ -99,6 +101,17 @@ void \mbox{\hyperlink{classDoubleLinkedList}{Double\+Linked\+List}}$<$ T $>$\+::
 
 
 Print the entire list. 
+
+\Hypertarget{classDoubleLinkedList_a0d6dfeabf2e40475a0cc4ac6af476242}\index{DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}!display\_at@{display\_at}}
+\index{display\_at@{display\_at}!DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{display\_at()}{display\_at()}}
+{\footnotesize\ttfamily \label{classDoubleLinkedList_a0d6dfeabf2e40475a0cc4ac6af476242} 
+template$<$typename T $>$ \\
+void \mbox{\hyperlink{classDoubleLinkedList}{Double\+Linked\+List}}$<$ T $>$\+::display\+\_\+at (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{index}{, }\item[{size\+\_\+t}]{offset}{ = {\ttfamily 0}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Display an element at {\ttfamily index}, index can be offset by {\ttfamily offset} 
 
 \Hypertarget{classDoubleLinkedList_a987929d6e7645d2ec31578c43c08a860}\index{DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}!insert@{insert}}
 \index{insert@{insert}!DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}}

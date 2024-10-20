@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>proj1: /home/mattys/skrypty-i-syfy/studia/rok2/programowanie-zaawansowane/p1/src/doublelinkedlist.hpp Source File</title>
+<title>proj1: src/doublelinkedlist.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -257,16 +257,23 @@ $(function(){ initResizable(false); });
 </div>
 <div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span> </div>
 <div class="foldopen" id="foldopen00159" data-start="{" data-end="}">
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno"><a class="line" href="classDoubleLinkedList.html#adb259991b6afd0f85191f38ac9595d14">  159</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classDoubleLinkedList.html#adb259991b6afd0f85191f38ac9595d14">clear</a>() {</div>
-<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>        <span class="keyword">delete</span> head;</div>
-<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>        head = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>        tail = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>    }</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno"><a class="line" href="classDoubleLinkedList.html#a0d6dfeabf2e40475a0cc4ac6af476242">  159</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classDoubleLinkedList.html#a0d6dfeabf2e40475a0cc4ac6af476242">display_at</a>(<span class="keywordtype">size_t</span> index, <span class="keywordtype">size_t</span> offset = 0) {</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>        std::print(<span class="stringliteral">&quot;{}&quot;</span>, get_node_at(index + offset)-&gt;contents);</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>    }</div>
 </div>
-<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>};</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span> </div>
+<div class="foldopen" id="foldopen00164" data-start="{" data-end="}">
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno"><a class="line" href="classDoubleLinkedList.html#adb259991b6afd0f85191f38ac9595d14">  164</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classDoubleLinkedList.html#adb259991b6afd0f85191f38ac9595d14">clear</a>() {</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>        <span class="keyword">delete</span> head;</div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>        head = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>        tail = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>    }</div>
+</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>};</div>
 </div>
 <div class="ttc" id="aclassDoubleLinkedList_html"><div class="ttname"><a href="classDoubleLinkedList.html">DoubleLinkedList</a></div><div class="ttdoc">Implementation of a double linked list using the heap.</div><div class="ttdef"><b>Definition</b> doublelinkedlist.hpp:10</div></div>
 <div class="ttc" id="aclassDoubleLinkedList_html_a0ccf82f8b03b5f116590e16ea3fbcd57"><div class="ttname"><a href="classDoubleLinkedList.html#a0ccf82f8b03b5f116590e16ea3fbcd57">DoubleLinkedList::rdisplay</a></div><div class="ttdeci">void rdisplay(void)</div><div class="ttdoc">Print the entire list in reverse order.</div><div class="ttdef"><b>Definition</b> doublelinkedlist.hpp:64</div></div>
+<div class="ttc" id="aclassDoubleLinkedList_html_a0d6dfeabf2e40475a0cc4ac6af476242"><div class="ttname"><a href="classDoubleLinkedList.html#a0d6dfeabf2e40475a0cc4ac6af476242">DoubleLinkedList::display_at</a></div><div class="ttdeci">void display_at(size_t index, size_t offset=0)</div><div class="ttdoc">Display an element at index, index can be offset by offset</div><div class="ttdef"><b>Definition</b> doublelinkedlist.hpp:159</div></div>
 <div class="ttc" id="aclassDoubleLinkedList_html_a13c39c95d5506742945c64e6b2e40bf8"><div class="ttname"><a href="classDoubleLinkedList.html#a13c39c95d5506742945c64e6b2e40bf8">DoubleLinkedList::DoubleLinkedList</a></div><div class="ttdeci">DoubleLinkedList(void)</div><div class="ttdoc">Default Constructor.</div><div class="ttdef"><b>Definition</b> doublelinkedlist.hpp:41</div></div>
 <div class="ttc" id="aclassDoubleLinkedList_html_a52c348fc8b49fbcef10d5a541c2c659d"><div class="ttname"><a href="classDoubleLinkedList.html#a52c348fc8b49fbcef10d5a541c2c659d">DoubleLinkedList::prepend</a></div><div class="ttdeci">void prepend(const T &amp;item)</div><div class="ttdoc">Prepend an item to the beggining of the list.</div><div class="ttdef"><b>Definition</b> doublelinkedlist.hpp:93</div></div>
 <div class="ttc" id="aclassDoubleLinkedList_html_a5b9cb7b27c670ae6a71c484addf7b7d5"><div class="ttname"><a href="classDoubleLinkedList.html#a5b9cb7b27c670ae6a71c484addf7b7d5">DoubleLinkedList::pop</a></div><div class="ttdeci">void pop(void)</div><div class="ttdoc">Remove an element from the tail of the list.</div><div class="ttdef"><b>Definition</b> doublelinkedlist.hpp:118</div></div>
@@ -276,7 +283,7 @@ $(function(){ initResizable(false); });
 <div class="ttc" id="aclassDoubleLinkedList_html_a9feca27122e9614d3f57ed56008f4bf7"><div class="ttname"><a href="classDoubleLinkedList.html#a9feca27122e9614d3f57ed56008f4bf7">DoubleLinkedList::append</a></div><div class="ttdeci">void append(const T &amp;item)</div><div class="ttdoc">Append an item to the end of the list.</div><div class="ttdef"><b>Definition</b> doublelinkedlist.hpp:81</div></div>
 <div class="ttc" id="aclassDoubleLinkedList_html_ac5f075bc31a0282c5c103a915a3624c5"><div class="ttname"><a href="classDoubleLinkedList.html#ac5f075bc31a0282c5c103a915a3624c5">DoubleLinkedList::display</a></div><div class="ttdeci">void display(void)</div><div class="ttdoc">Print the entire list.</div><div class="ttdef"><b>Definition</b> doublelinkedlist.hpp:47</div></div>
 <div class="ttc" id="aclassDoubleLinkedList_html_ad6ea0ce7f95f24677b38b34ba0aec648"><div class="ttname"><a href="classDoubleLinkedList.html#ad6ea0ce7f95f24677b38b34ba0aec648">DoubleLinkedList::pop_at</a></div><div class="ttdeci">void pop_at(size_t index)</div><div class="ttdoc">Remove an element at a given index.</div><div class="ttdef"><b>Definition</b> doublelinkedlist.hpp:136</div></div>
-<div class="ttc" id="aclassDoubleLinkedList_html_adb259991b6afd0f85191f38ac9595d14"><div class="ttname"><a href="classDoubleLinkedList.html#adb259991b6afd0f85191f38ac9595d14">DoubleLinkedList::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdoc">Clear the memory allocated by the list.</div><div class="ttdef"><b>Definition</b> doublelinkedlist.hpp:159</div></div>
+<div class="ttc" id="aclassDoubleLinkedList_html_adb259991b6afd0f85191f38ac9595d14"><div class="ttname"><a href="classDoubleLinkedList.html#adb259991b6afd0f85191f38ac9595d14">DoubleLinkedList::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdoc">Clear the memory allocated by the list.</div><div class="ttdef"><b>Definition</b> doublelinkedlist.hpp:164</div></div>
 <div class="ttc" id="aclassDoubleLinkedList_html_aebaa7216729c1d8175a31b7d7910650c"><div class="ttname"><a href="classDoubleLinkedList.html#aebaa7216729c1d8175a31b7d7910650c">DoubleLinkedList::~DoubleLinkedList</a></div><div class="ttdeci">~DoubleLinkedList(void)</div><div class="ttdef"><b>Definition</b> doublelinkedlist.hpp:42</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

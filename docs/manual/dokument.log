@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.10.2)  11 OCT 2024 10:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.10.2)  20 OCT 2024 12:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -961,7 +961,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
-[5]) (./tex/rozdzial5.tex
+[5]
+LaTeX Font Info:    Trying to load font information for OT4+cmtt on input line 8.
+ (/usr/share/texmf-dist/tex/latex/polski/ot4cmtt.fd
+File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+) (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/02/21 1.10 listings language file
+) (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/02/21 1.10 listings language file
+) (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 10.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.48892pt, for example:
@@ -969,7 +981,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
-[6])
+[6{/usr/share/texmf-dist/fonts/enc/dvips/pl/pltt.enc}]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.48892pt, for example:
@@ -977,7 +989,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
-[7]
+[7]) (./tex/rozdzial5.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.48892pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.48892pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
+
+[8])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.48892pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.48892pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
+
+[9{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
 LaTeX Warning: Empty bibliography on input line 78.
 
@@ -993,7 +1021,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
-[8
+[10
 
 ] (./dokument.lot)
 \tf@lot=\write8
@@ -1007,7 +1035,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
-[9] (./dokument.lol)
+[11] (./dokument.lol)
 \tf@lol=\write9
 \openout9 = `dokument.lol'.
 
@@ -1022,30 +1050,30 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
-[10] (./dokument.aux)
+[12] (./dokument.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `dokument.out' has not changed.
-(rerunfilecheck)             Checksum: 1DA746E545D6CE873E0A8F175695D045;1790.
+(rerunfilecheck)             Checksum: 67A3468D824429115387EB152026F224;2278.
 Package logreq Info: Writing requests to 'dokument.run.xml'.
 \openout1 = `dokument.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24140 strings out of 476041
- 407546 string characters out of 5792971
- 1934187 words of memory out of 5000000
- 45866 multiletter control sequences out of 15000+600000
- 570659 words of font info for 72 fonts, out of 8000000 for 9000
+ 24686 strings out of 476041
+ 413650 string characters out of 5792971
+ 2040187 words of memory out of 5000000
+ 46329 multiletter control sequences out of 15000+600000
+ 573385 words of font info for 79 fonts, out of 8000000 for 9000
  35 hyphenation exceptions out of 8191
- 80i,11n,84p,738b,1744s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/pl/plbx12.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plr12.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plr17.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plr8.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plss12.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plti10.pfb>
-Output written on dokument.pdf (10 pages, 79218 bytes).
+ 80i,12n,84p,830b,1922s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/pl/plbx10.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plbx12.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plr10.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plr12.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plr17.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plr6.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plr8.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plss12.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plti10.pfb></usr/share/texmf-dist/fonts/type1/public/pl/pltt10.pfb></usr/share/texmf-dist/fonts/type1/public/pl/pltt12.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on dokument.pdf (12 pages, 133848 bytes).
 PDF statistics:
- 165 PDF objects out of 1000 (max. 8388607)
- 137 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 298 PDF objects out of 1000 (max. 8388607)
+ 255 compressed objects within 3 object streams
+ 88 named destinations out of 1000 (max. 500000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 

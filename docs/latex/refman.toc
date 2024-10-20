@@ -13,13 +13,14 @@
 \contentsline {subsubsection}{\numberline {3.1.3.1}append()}{6}{subsubsection.3.1.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.3.2}clear()}{6}{subsubsection.3.1.3.2}%
 \contentsline {subsubsection}{\numberline {3.1.3.3}display()}{6}{subsubsection.3.1.3.3}%
-\contentsline {subsubsection}{\numberline {3.1.3.4}insert()}{7}{subsubsection.3.1.3.4}%
-\contentsline {subsubsection}{\numberline {3.1.3.5}operator[]()}{7}{subsubsection.3.1.3.5}%
-\contentsline {subsubsection}{\numberline {3.1.3.6}pop()}{7}{subsubsection.3.1.3.6}%
-\contentsline {subsubsection}{\numberline {3.1.3.7}pop\_at()}{7}{subsubsection.3.1.3.7}%
-\contentsline {subsubsection}{\numberline {3.1.3.8}prepend()}{7}{subsubsection.3.1.3.8}%
-\contentsline {subsubsection}{\numberline {3.1.3.9}rdisplay()}{7}{subsubsection.3.1.3.9}%
-\contentsline {subsubsection}{\numberline {3.1.3.10}rpop()}{7}{subsubsection.3.1.3.10}%
+\contentsline {subsubsection}{\numberline {3.1.3.4}display\_at()}{7}{subsubsection.3.1.3.4}%
+\contentsline {subsubsection}{\numberline {3.1.3.5}insert()}{7}{subsubsection.3.1.3.5}%
+\contentsline {subsubsection}{\numberline {3.1.3.6}operator[]()}{7}{subsubsection.3.1.3.6}%
+\contentsline {subsubsection}{\numberline {3.1.3.7}pop()}{7}{subsubsection.3.1.3.7}%
+\contentsline {subsubsection}{\numberline {3.1.3.8}pop\_at()}{7}{subsubsection.3.1.3.8}%
+\contentsline {subsubsection}{\numberline {3.1.3.9}prepend()}{7}{subsubsection.3.1.3.9}%
+\contentsline {subsubsection}{\numberline {3.1.3.10}rdisplay()}{8}{subsubsection.3.1.3.10}%
+\contentsline {subsubsection}{\numberline {3.1.3.11}rpop()}{8}{subsubsection.3.1.3.11}%
 \contentsline {chapter}{\numberline {4}File Documentation}{9}{chapter.4}%
 \contentsline {section}{\numberline {4.1}src/doublelinkedlist.hpp File Reference}{9}{section.4.1}%
 \contentsline {section}{\numberline {4.2}doublelinkedlist.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}hpp}{9}{section.4.2}%

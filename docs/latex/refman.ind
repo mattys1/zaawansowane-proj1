@@ -17,6 +17,8 @@
 
   \item {display}
     \subitem {DoubleLinkedList$<$ T $>$}, \hyperpage{6}
+  \item {display\_at}
+    \subitem {DoubleLinkedList$<$ T $>$}, \hyperpage{6}
   \item {DoubleLinkedList}
     \subitem {DoubleLinkedList$<$ T $>$}, \hyperpage{6}
   \item {DoubleLinkedList$<$ T $>$}, \hyperpage{5}
@@ -25,19 +27,20 @@
     \subitem {append}, \hyperpage{6}
     \subitem {clear}, \hyperpage{6}
     \subitem {display}, \hyperpage{6}
+    \subitem {display\_at}, \hyperpage{6}
     \subitem {DoubleLinkedList}, \hyperpage{6}
-    \subitem {insert}, \hyperpage{6}
+    \subitem {insert}, \hyperpage{7}
     \subitem {operator[]}, \hyperpage{7}
     \subitem {pop}, \hyperpage{7}
     \subitem {pop\_at}, \hyperpage{7}
     \subitem {prepend}, \hyperpage{7}
     \subitem {rdisplay}, \hyperpage{7}
-    \subitem {rpop}, \hyperpage{7}
+    \subitem {rpop}, \hyperpage{8}
 
   \indexspace
 
   \item {insert}
-    \subitem {DoubleLinkedList$<$ T $>$}, \hyperpage{6}
+    \subitem {DoubleLinkedList$<$ T $>$}, \hyperpage{7}
 
   \indexspace
 
@@ -65,7 +68,7 @@
   \item {rdisplay}
     \subitem {DoubleLinkedList$<$ T $>$}, \hyperpage{7}
   \item {rpop}
-    \subitem {DoubleLinkedList$<$ T $>$}, \hyperpage{7}
+    \subitem {DoubleLinkedList$<$ T $>$}, \hyperpage{8}
 
   \indexspace
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.10.2)  6 OCT 2024 12:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.10.2)  20 OCT 2024 12:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -899,22 +899,25 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 16.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 8.09995pt on input line 16.
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <9> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 38.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 41.
+(Font)              scaled to size 10.79993pt on input line 43.
+ [5]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 52.
+(Font)              scaled to size 7.19995pt on input line 54.
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 54.
- [5] [6]) [7] [8
-
-]
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 56.
+ [6] [7]) [8]
 Chapter 4.
 (./doublelinkedlist_8hpp.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-) (./doublelinkedlist_8hpp_source.tex [9] [10]) (./main_8cpp.tex
+) (./doublelinkedlist_8hpp_source.tex [9
+
+] [10]) (./main_8cpp.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
@@ -927,21 +930,20 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
  [13
 
 
-
 ]) (./refman.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: 35DEF0898700A64B05408BDDBD43F1F9;5003.
+(rerunfilecheck)             Checksum: E68E0DB5366E27978E072AB0A0DAE36E;5193.
  ) 
 Here is how much of TeX's memory you used:
- 17856 strings out of 476041
- 281963 string characters out of 5792971
+ 17864 strings out of 476041
+ 282172 string characters out of 5792971
  1941187 words of memory out of 5000000
- 39572 multiletter control sequences out of 15000+600000
- 606256 words of font info for 104 fonts, out of 8000000 for 9000
+ 39577 multiletter control sequences out of 15000+600000
+ 606993 words of font info for 106 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
  101i,15n,117p,361b,548s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
@@ -952,10 +954,10 @@ msy8.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/
 texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texmf-dist/fonts/typ
 e1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr
 8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on refman.pdf (17 pages, 116269 bytes).
+Output written on refman.pdf (17 pages, 118007 bytes).
 PDF statistics:
- 386 PDF objects out of 1000 (max. 8388607)
- 343 compressed objects within 4 object streams
- 64 named destinations out of 1000 (max. 500000)
- 225 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 397 PDF objects out of 1000 (max. 8388607)
+ 354 compressed objects within 4 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 233 words of extra memory for PDF output out of 10000 (max. 10000000)
 

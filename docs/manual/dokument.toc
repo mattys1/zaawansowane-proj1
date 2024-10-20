@@ -9,8 +9,10 @@
 \contentsline {subsection}{\numberline {3.2}Git}{5}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Doxygen}{5}{subsection.3.3}%
 \contentsline {section}{\numberline {4}Implementacja}{6}{section.4}%
-\contentsline {section}{\numberline {5}Wnioski}{7}{section.5}%
-\contentsline {section}{Literatura}{8}{section.5}%
-\contentsline {section}{Spis rysunków}{8}{section.5}%
-\contentsline {section}{Spis tabel}{9}{section.5}%
-\contentsline {section}{Spis listingów}{10}{section.5}%
+\contentsline {subsection}{\numberline {4.1}Ogólne informacje o implementacji klasy}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Ciekawe fragmenty kodu}{7}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Wnioski}{9}{section.5}%
+\contentsline {section}{Literatura}{10}{section.5}%
+\contentsline {section}{Spis rysunków}{10}{section.5}%
+\contentsline {section}{Spis tabel}{11}{section.5}%
+\contentsline {section}{Spis listingów}{12}{section.5}%

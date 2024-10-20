@@ -9,8 +9,10 @@
 \indexentry{clear@{clear}!DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}|hyperpage}{6}
 \indexentry{DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}!display@{display}|hyperpage}{6}
 \indexentry{display@{display}!DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}|hyperpage}{6}
-\indexentry{DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}!insert@{insert}|hyperpage}{6}
-\indexentry{insert@{insert}!DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}|hyperpage}{6}
+\indexentry{DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}!display\_at@{display\_at}|hyperpage}{6}
+\indexentry{display\_at@{display\_at}!DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}|hyperpage}{6}
+\indexentry{DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}!insert@{insert}|hyperpage}{7}
+\indexentry{insert@{insert}!DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}|hyperpage}{7}
 \indexentry{DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}!operator\mbox{[}\mbox{]}@{operator[]}|hyperpage}{7}
 \indexentry{operator\mbox{[}\mbox{]}@{operator[]}!DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}|hyperpage}{7}
 \indexentry{DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}!pop@{pop}|hyperpage}{7}
@@ -21,8 +23,8 @@
 \indexentry{prepend@{prepend}!DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}|hyperpage}{7}
 \indexentry{DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}!rdisplay@{rdisplay}|hyperpage}{7}
 \indexentry{rdisplay@{rdisplay}!DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}|hyperpage}{7}
-\indexentry{DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}!rpop@{rpop}|hyperpage}{7}
-\indexentry{rpop@{rpop}!DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}|hyperpage}{7}
+\indexentry{DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}!rpop@{rpop}|hyperpage}{8}
+\indexentry{rpop@{rpop}!DoubleLinkedList$<$ T $>$@{DoubleLinkedList$<$ T $>$}|hyperpage}{8}
 \indexentry{src/doublelinkedlist.hpp@{src/doublelinkedlist.hpp}|hyperpage}{9}
 \indexentry{src/doublelinkedlist.hpp@{src/doublelinkedlist.hpp}|hyperpage}{9}
 \indexentry{src/main.cpp@{src/main.cpp}|hyperpage}{11}
