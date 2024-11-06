@@ -9,8 +9,36 @@
 
 List używa się przy okazjach, gdy potrzebny jest kontener potrafiący w szybki i prosty sposób modyfikować swoja wielkość i wewnętrzną strukturę, a szybkość dostępu do samych elementów nie jest aż tak ważna.
 
-Lista jest zbiorem połączonych liniowo ze sobą elementów, gdzie w przypadku tej implementacji, elementy są połączone obustronnie t.zn., każdy element jest połączony z poprzednim i następnym. Dostęp do danego elementu uzyskuje się poprzez enumeracje po kolei wszystkich elementów w liście, aż nie dojdzie się do docelowego. Struktura taka pozwala na łatwe usuwanie i dodawanie elementów - wymaga to tylko zmienienia kilku wskaźników, a nie "przesuwania" całego kontenera. 
+Lista jest zbiorem połączonych liniowo ze sobą elementów, gdzie w przypadku tej implementacji, elementy są połączone obustronnie t.zn., każdy element jest połączony z poprzednim i następnym. Dostęp do danego elementu uzyskuje się poprzez enumeracje po kolei wszystkich elementów w liście, aż nie dojdzie się do docelowego. Struktura taka pozwala na łatwe usuwanie i dodawanie elementów - wymaga to tylko zmienienia kilku wskaźników, a nie "przesuwania" całego kontenera. Graficzną reprezentację takiej listy widać na rysunku \ref{fig:list_struct}:
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{images/lista.drawio.png}
+	\caption{\centering{Graficzna struktura listy dwukierunkowej}}
+	\label{fig:list_struct}
+\end{figure}
+
+Strzałki między wskaźnikami na rysunku \ref{fig:list_struct}, symbolizują do jakich miejsc w pamięci wskazują wskaźniki.
+
+Gdybyśmy chcieli dodać jakiś element do listy, proces wyglądałby jak na rys. \ref{fig:}:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{images/listadodanie_pre.drawio.png}
+	\caption{\centering{Element przed dodaniem do listy}}
+	\label{fig:list_add_pre}
+\end{figure}
+
+Na rys. \ref{fig:list_add_pre} widać połączenia między elementami listy. \texttt{elem\_2} ma być dodany między \texttt{elem\_1} i \texttt{tail}. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{images/listadodanie_post.drawio.png}
+	\caption{\centering{Element po dodaniu}}
+	\label{fig:list_add_post}
+\end{figure}
+
+Jak widać z rys. \ref{fig:list_add_post}, wystarczy tylko zmienić adresy na jakie wskazują wskaźniki w danych pozycjach i element zostanie dodany.
 \subsection{Git}
 Kolejnym konceptem, którym zajmuje się projekt jest narzędzie git. Pozwala ono zarządzać poszczególnymi wersjami projektów. Głównym korzeniem gita jest system commitów, czyli zapisania zmian w pliku w stosunku do commita starszego. To, w połączeniu z jego innymi możliwościami pozwala na tworzenie długich i skomplikowanych osi czasu danych projektów. 
 
